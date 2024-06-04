@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background: #01010b;
+    color:white;
+    font-size:20px;
+}
+a{
+    text-decoration:none;
+}
+ul li {
+    
+    list-style:none;
+    
+
+}
+.contaier {
+    width:90px;
+    margin:auto;
+}
+.nav-main {
+    background:rgb(28, 39, 53);
+    font-size:17px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:60px;
+    padding:20px 0;
+}
+.nav-brand{
+    background:rgb(7, 37, 62);
+    width:100px;
+
+}
+/* NAV LEFT */
+.nav-main ul {
+    display:flex;
+    
+}
+.nav-main ul li {
+    
+    padding:15px;   
+}
+
+.nav-main ul.nav-manu{
+    flex:1;
+    margin-left:20px;
+  
+}
+.nav-menu li a {
+    color:white;
+}
+.btn1{
+    background: orange;
+    color:black;
+    font-size:20px;
+    padding:10px 20px;
+    display:inline-block;
+    border-radius: 20px;
+}
+.pointer a i{
+    color:white;
+}
+.changes{
+    background:white;
+    font-size:17px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 60px;
+    padding:20px 0;
+}
+    
+.changes ul{
+    display:flex;
+    margin-left:20px;
+    
+    
+}
+.changes ul li {
+    padding:15px;
+    
+}
+.nav-1 li a {
+    color:black;
+}
+
+/* shocase */
+.imagen{
+    width:95px;
+    height:90px;
+    opacity: 0.5;
+}
+.showcase {
+
+    width:100%;
+    height:540px;
+    padding-bottom:70px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-end;
+    
+}
+.showcase a {
+    color:rgb(33, 33, 218);
+}
+.showcase h2 a{
+    color:black;
+}
+.field{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:350px;
+    
+}
+
+
+.btn {
+    cursor:pointer;
+    display:inline-block;
+    border:0;
+    font-weight:bold;
+    padding:10px 20px;
+    background:orange;
+    color:black;
+    font-size:15px;
+    border-radius:20px ;
+
+}
+/* NEWS CARDS */
+.news-cards{
+    background:white;
+    color:black;
+    text-align:center;
+ display:flex;
+ justify-content: center; 
+ 
+}
+.news-cards img{
+    width :100px;
+    height:100px;
+
+}
+.news-cards h3{
+    font-size:20px;
+    margin:10px 0;
+    
+}
+.news-cards h3 a{
+    color:black;
+    
+}
